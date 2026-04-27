@@ -6,23 +6,23 @@ export default function Skills() {
     },
     {
       title: "Frameworks & Librerías",
-      skills: ["React", "Next.js", "React Native", "Nodejs", "Express",]
+      skills: ["React", "Next.js (SSR / SSG)", "React Native", "Node.js / Express",]
     },
     {
       title: "Estilos & UI",
-      skills: ["Tailwind CSS", "CSS Modules", "Style Components", "Components Library", "GSAP Animaciones"],
+      skills: ["Tailwind CSS", "CSS Modules", "Style Components / Components Library", "GSAP Animaciones"],
     },
     {
-      title: "Tooling",
-      skills: ["Vite", "ESLint", "Prettier"],
+      title: "Arquitectura",
+      skills: ["Micro Fronts", "BFF Pattern", "Context API"],
     },
     {
-      title: "Testing",
-      skills: ["Vitest", "Playwright", "Storybook"],
+      title: "Integraciones",
+      skills: ["Mercado Pago / Libre", "Stripe", "IA / LLMS"],
     },
     {
-      title: "Otras herramientas",
-      skills: ["Git", "Docker", "Postman"],
+      title: "Herramientas",
+      skills: ["Git", "Postman", "Vercel / Docker"],
     },
   ];
 
@@ -42,7 +42,7 @@ export default function Skills() {
         >
           Tecnologias con las
           <br />
-          <span className="text-white/40">que trabajo cada día</span>
+          <span className="text-white/40">que trabajo</span>
         </h2>
       </div>
 

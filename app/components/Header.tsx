@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { navLinks } from "../contants";
 
 export default function Header() {
@@ -24,9 +25,10 @@ export default function Header() {
         {/* Logo / Nombre */}
         <a
           href="#hero"
-          className="font-serif text-lg tracking-tight text-white/90 hover:text-white transition-colors"
+          className="flex items-center gap-2 font-serif text-lg tracking-tight text-white/90 hover:text-white transition-colors"
         >
-          Luis Hernandez Nava<span className="text-amber-400">.</span>
+          <Image src="/logo.svg" alt="Logo de Luis Hernandez Nava" width={42} height={42} priority />
+          
         </a>
 
         {/* Nav desktop */}

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <!-- Background radial gradient for depth -->
+    <radialGradient id="bgGrad" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </radialGradient>
+    <!-- Gold gradient for accents -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b8860b"/>
+      <stop offset="40%" stop-color="#d4a017"/>
+      <stop offset="60%" stop-color="#f0c040"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+    <!-- Clip circle -->
+    <clipPath id="circleClip">
+      <circle cx="400" cy="400" r="378"/>
+    </clipPath>
+  </defs>
+
+  <!-- Outer black circle (background) -->
+  <circle cx="400" cy="400" r="395" fill="#000000"/>
+
+  <!-- Main dark background circle -->
+  <circle cx="400" cy="400" r="378" fill="url(#bgGrad)"/>
+
+  <!-- Outer gold ring (thin) -->
+  <circle cx="400" cy="400" r="372" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0.6"/>
+
+  <!-- Inner gold ring (thin) -->
+  <circle cx="400" cy="400" r="355" fill="none" stroke="url(#goldGrad)" stroke-width="0.7" opacity="0.4"/>
+
+  <!-- Clock tick marks (gold) - top, bottom, left, right -->
+  <!-- Top tick -->
+  <line x1="400" y1="24" x2="400" y2="48" stroke="url(#goldGrad)" stroke-width="2" opacity="0.8"/>
+  <!-- Bottom tick -->
+  <line x1="400" y1="752" x2="400" y2="776" stroke="url(#goldGrad)" stroke-width="2" opacity="0.8"/>
+  <!-- Left tick -->
+  <line x1="24" y1="400" x2="48" y2="400" stroke="url(#goldGrad)" stroke-width="2" opacity="0.8"/>
+  <!-- Right tick -->
+  <line x1="752" y1="400" x2="776" y2="400" stroke="url(#goldGrad)" stroke-width="2" opacity="0.8"/>
+
+  <!-- LN Letters - thin/light serif italic -->
+  <text
+    x="400"
+    y="415"
+    font-family="'Palatino Linotype', Palatino, 'Book Antiqua', serif"
+    font-size="230"
+    font-weight="100"
+    font-style="italic"
+    fill="white"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    letter-spacing="2"
+    stroke="white"
+    stroke-width="0.5"
+  >LN</text>
+
+  <!-- Gold dot between L and N (decorative bullet) -->
+  <circle cx="385" cy="390" r="6" fill="#d4a017"/>
+
+  <!-- Gold underline border directly below LN initials -->
+  <line x1="185" y1="488" x2="615" y2="488" stroke="url(#goldGrad)" stroke-width="1.2" opacity="0.95"/>
+
+  <!-- SOFTWARE DEVELOPER text in gold, spaced -->
+  <text
+    x="400"
+    y="538"
+    font-family="'Palatino Linotype', Palatino, 'Book Antiqua', serif"
+    font-size="26"
+    fill="#c8902a"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    letter-spacing="10"
+    font-weight="300"
+  >SOFTWARE DEVELOPER</text>
+</svg>

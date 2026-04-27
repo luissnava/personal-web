@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-
+import { ArrowRight } from "../icons/icons";
 export default function Hero() {
   const containerRef = useRef<HTMLElement>(null);
 
@@ -28,7 +28,7 @@ export default function Hero() {
         {/* Columna izquierda — Texto */}
         <div>
           <p className="text-xs tracking-[0.3em] text-amber-400/70 uppercase mb-6 font-mono">
-            Desarrollador Frontend
+            Desarrollador de Software
           </p>
 
           <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-normal leading-[1.05] text-white/95 mb-6">
@@ -40,9 +40,8 @@ export default function Hero() {
           </h1>
 
           <p className="text-base sm:text-lg text-white/50 leading-relaxed max-w-xl mb-12">
-            Construyo aplicaciones web profesionales, con atención
-            al detalle. Me especializo en React y en la experiencia que el usuario
-            siente al interactuar con cada píxel.
+            Construyo aplicaciones web profesionales.
+            Me especializo en React, Next.js y UI/UX.
           </p>
 
           <div className="flex flex-wrap gap-4 items-center">
@@ -50,7 +49,7 @@ export default function Hero() {
               href="#proyectos"
               className="inline-flex items-center gap-2 bg-amber-400 text-[#0a0a0a] text-sm font-medium px-6 py-3 hover:bg-amber-300 transition-colors duration-300 rounded-sm tracking-wide"
             >
-              Ver proyectos
+              Ver portafolio
               <ArrowRight />
             </a>
             <a
@@ -115,13 +114,5 @@ export default function Hero() {
         }}
       />
     </section>
-  );
-}
-
-function ArrowRight() {
-  return (
-    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-      <path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
   );
 }

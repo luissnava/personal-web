@@ -82,7 +82,7 @@ export default function Footer() {
           className="group flex items-center gap-2 text-[11px] cursor-pointer text-white/20 hover:text-amber-400/70 transition-colors duration-300 font-mono"
           aria-label="Volver al inicio"
         >
-          Volver al inicio
+          Volver arriba
           <span className="w-5 h-5 border border-white/10 group-hover:border-amber-400/30 flex items-center justify-center rounded-sm transition-all duration-300 group-hover:-translate-y-0.5">
             <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M5 8V2M2.5 4.5L5 2l2.5 2.5" />

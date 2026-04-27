@@ -128,6 +128,69 @@ export const socialLinks = [
 
 export const experience = [
     { value: "5+", label: "Años de experiencia" },
-    { value: "11+", label: "Proyectos entregados" },
+    { value: "12+", label: "Proyectos entregados" },
     { value: "100%", label: "Compromiso con calidad" },
 ];
+
+export const totalProjects = [
+    {
+        id: 1,
+        name: "CitroScut (Modulo de Reportes)",
+        description: ""
+    },
+    {
+        id: 2,
+        name: "Libellum Suite (Tablas)",
+        description: ""
+    },
+    {
+        id: 3,
+        name: "Kachimuhsi",
+        description: ""
+    },
+    {
+        id: 4,
+        name: "C4POS",
+        description: ""
+    },
+    {
+        id: 5,
+        name: "Microsip (Integracion con Mercado Libre)",
+        description: ""
+    },
+    {
+        id: 6,
+        name: "Ipesa Pinturas",
+        description: ""
+    },
+    {
+        id: 7,
+        name: "Stone House",
+        description: ""
+    },
+    {
+        id: 8,
+        name: "Global Jet Set",
+        description: ""
+    },
+    {
+        id: 9,
+        name: "Carebios",
+        description: ""
+    },
+    {
+        id: 10,
+        name: "Modulo Prendas de Oro",
+        description: ""
+    },
+    {
+        id: 11,
+        name: "FinOps",
+        description: ""
+    },
+    {
+        id: 12,
+        name: "Mi Comanda POS",
+        description: ""
+    }
+]

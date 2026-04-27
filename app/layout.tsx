@@ -22,7 +22,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pedrolhernandez.dev"),
+  metadataBase: new URL("https://luisnava.dev"),
   title: {
     default: "Luis Hernandez Nava · Desarrollador Frontend",
     template: "%s | Luis Hernandez Nava",
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     "freelance",
     "México",
   ],
-  authors: [{ name: "Luis Hernandez Nava", url: "" }],
+  authors: [{ name: "Luis Hernandez Nava", url: "https://luisnava.dev" }],
   creator: "Luis Hernandez Nava",
   publisher: "Luis Hernandez Nava",
   formatDetection: {
@@ -86,7 +86,7 @@ export const metadata: Metadata = {
     title: "Luis Hernandez Nava · Desarrollador Frontend",
     description:
       "Desarrollador Frontend en React y Next.js. +5 años creando interfaces web, accesibles y con atención al detalle.",
-    url: "",
+    url: "https://luisnava.dev",
     siteName: "Luis Hernandez Nava",
     locale: "es_MX",
     type: "website",
@@ -109,7 +109,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "",
+    canonical: "https://luisnava.dev",
   },
 };
 
@@ -118,7 +118,7 @@ const jsonLd = {
   "@type": "Person",
   name: "Luis Hernandez Nava",
   jobTitle: "Desarrollador Frontend",
-  url: "",
+  url: "https://luisnava.dev",
   sameAs: [
     "https://www.linkedin.com/in/luis-nava98/",
     "https://github.com/luissnava",
