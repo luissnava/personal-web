@@ -29,20 +29,20 @@ export default function Hero() {
         {/* Columna izquierda — Texto */}
         <div>
           <p className="text-xs tracking-[0.3em] text-amber-400/70 uppercase mb-6 font-mono">
-            Desarrollador de Software
+            Frontend Developer
           </p>
 
           <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-normal leading-[1.05] text-white/95 mb-6">
             Luis
             <br />
-            <span className="text-white/40">Hernandez</span>
+            <span className="text-white/40">Hernández</span>
             <br />
             Nava<span className="text-amber-400">.</span>
           </h1>
 
           <p className="text-base sm:text-lg text-white/50 leading-relaxed max-w-xl mb-12">
             Construyo aplicaciones web profesionales.
-            Me especializo en React, Next.js y UI/UX.
+            Me especializo en desarrollo frontend, Next.js & React.js.
           </p>
 
           <div className="flex flex-wrap gap-4 items-center">
@@ -73,14 +73,6 @@ export default function Hero() {
 
       {/* Línea decorativa izquierda */}
       <div className="absolute left-0 top-1/3 h-32 w-px bg-linear-to-b from-transparent via-amber-400/30 to-transparent hidden lg:block" />
-
-      {/* Indicador scroll */}
-      <div className="absolute bottom-10 left-6 flex items-center gap-3">
-        <div className="w-px h-12 bg-linear-to-b from-white/20 to-transparent animate-pulse" />
-        <span className="text-xs text-white/20 tracking-widest uppercase rotate-90 origin-left translate-y-4">
-          Scroll
-        </span>
-      </div>
 
       {/* Fondo decorativo */}
       <div

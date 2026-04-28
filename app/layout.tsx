@@ -24,11 +24,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://luisnava.dev"),
   title: {
-    default: "Luis Hernandez Nava · Desarrollador Frontend",
-    template: "%s | Luis Hernandez Nava",
+    default: "Luis Nava · Frontend Developer",
+    template: "%s | Luis Nava",
   },
   description:
-    "Desarrollador Frontend en React, Next.js y TypeScript. Construyo interfaces web, accesibles y con atención al detalle. +5 años de experiencia. Disponible para proyectos freelance en México.",
+    "Frontend Developer React, Next.js & TypeScript. Desarrollo aplicaciones web profesionales. 5 años de experiencia. Disponible para proyectos freelance.",
   keywords: [
     "desarrollador frontend",
     "desarrollador backend",
@@ -39,6 +39,7 @@ export const metadata: Metadata = {
     "desarrollo de software",
     "software developer",
     "frontend developer",
+    "Frontend Developer",
     "fullstack developer",
     "web development",
     "software development",
@@ -67,7 +68,6 @@ export const metadata: Metadata = {
     "automatización con IA",
     "AI integration",
     "AI developer",
-    "Amazon Q",
     "página web",
     "web profesional",
     "Luis Hernandez Nava",
@@ -83,19 +83,28 @@ export const metadata: Metadata = {
     telephone: false,
   },
   openGraph: {
-    title: "Luis Hernandez Nava · Desarrollador Frontend",
+    title: "Luis Nava · Frontend Developer",
     description:
-      "Desarrollador Frontend en React y Next.js. +5 años creando interfaces web, accesibles y con atención al detalle.",
+      "Frontend Developer React y Next.js. 5 años desarrollando aplicaciones web profesionales.",
     url: "https://luisnava.dev",
     siteName: "Luis Hernandez Nava",
     locale: "es_MX",
     type: "website",
+    images: [
+      {
+        url: "/og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Luis Nava · Frontend Developer",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Luis Hernandez Nava · Desarrollador Frontend",
+    title: "Luis Nava · Frontend Developer",
     description:
-      "Desarrollador Frontend en React y Next.js. Disponible para proyectos freelance.",
+      "Frontend Developer en React y Next.js. Disponible para proyectos freelance.",
+    images: ["/og.jpg"],
   },
   robots: {
     index: true,
@@ -116,8 +125,8 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: "Luis Hernandez Nava",
-  jobTitle: "Desarrollador Frontend",
+  name: "Luis Nava",
+  jobTitle: "Frontend Developer",
   url: "https://luisnava.dev",
   sameAs: [
     "https://www.linkedin.com/in/luis-nava98/",
@@ -129,7 +138,7 @@ const jsonLd = {
     addressCountry: "MX",
   },
   description:
-    "Desarrollador Frontend con más de 5 años de experiencia en React, Next.js y TypeScript.",
+    "Frontend Developer con 5 años de experiencia en React, Next.js & TypeScript.",
 };
 
 export default function RootLayout({
