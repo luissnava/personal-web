@@ -479,6 +479,7 @@ export default function EtherealCanvas({ effect = "assemble" }: { effect?: Effec
     const container = canvas.parentElement!;
     const W = container.clientWidth;
     const H = container.clientHeight;
+    if (W === 0 || H === 0) return;
     canvas.width = W;
     canvas.height = H;
 

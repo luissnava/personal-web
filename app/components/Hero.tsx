@@ -41,8 +41,8 @@ export default function Hero() {
           </h1>
 
           <p className="text-base sm:text-lg text-white/50 leading-relaxed max-w-xl mb-12">
-            Construyo aplicaciones web profesionales.
-            Me especializo en desarrollo frontend, Next.js & React.js.
+            Desarrollo de aplicaciones web profesionales.
+            Me especializo en desarrollo frontend, React.js & Next.js.
           </p>
 
           <div className="flex flex-wrap gap-4 items-center">
@@ -64,7 +64,7 @@ export default function Hero() {
         </div>
 
         {/* Columna derecha — Efecto partículas */}
-        <div className="relative hidden lg:flex items-center justify-center h-120">
+        <div className="relative hidden md:flex lg:flex items-center justify-center h-full">
           <div className="relative z-10 w-full h-full">
             <EtherealCanvas effect="assemble" />
           </div>

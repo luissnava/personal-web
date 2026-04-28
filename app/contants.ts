@@ -127,7 +127,7 @@ export const socialLinks = [
 ];
 
 export const experience = [
-    { value: "5+", label: "Años de experiencia" },
+    { value: "4+", label: "Años de experiencia" },
     { value: "12+", label: "Proyectos entregados" },
     { value: "100%", label: "Compromiso con calidad" },
 ];
