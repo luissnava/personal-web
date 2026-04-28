@@ -87,7 +87,7 @@ export const metadata: Metadata = {
     description:
       "Frontend Developer React y Next.js. 5 años desarrollando aplicaciones web profesionales.",
     url: "https://luisnava.dev",
-    siteName: "Luis Hernandez Nava",
+    siteName: "Luis Nava",
     locale: "es_MX",
     type: "website",
     images: [
