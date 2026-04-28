@@ -1,11 +1,11 @@
-const FIELDS = 14;
+const FIELDS_ASSEMBLE = 14;
 
 let particles: Float32Array | null = null;
 let count = 0;
 let mouseOver = false;
 let time = 0;
 
-let CONFIG = {
+const CONFIG = {
   LERP_SPEED: 0.03,
   DRIFT_SPEED: 0.6,
   TURBULENCE: 0.3,
@@ -28,7 +28,7 @@ self.onmessage = function (e: MessageEvent) {
   }
 
   if (msg.type === "update" && particles) {
-    update();
+    updateAssemble();
     self.postMessage(
       { type: "frame", particles: particles.buffer },
       // @ts-expect-error transferable
@@ -41,12 +41,12 @@ self.onmessage = function (e: MessageEvent) {
   }
 };
 
-function update() {
+function updateAssemble() {
   if (!particles) return;
   time++;
 
   for (let i = 0; i < count; i++) {
-    const off = i * FIELDS;
+    const off = i * FIELDS_ASSEMBLE;
     let x = particles[off];
     let y = particles[off + 1];
     const originX = particles[off + 2];
