@@ -24,14 +24,14 @@ export default function About() {
           </h2>
           <div className="space-y-4 text-white/50 leading-relaxed text-sm sm:text-base">
             <p>
-              Soy un desarrollador Frontend apasionado por construir software
+              Soy desarrollador de software apasionado por construir aplicaciones
               de alto rendimiento con diseño profesional. Mi
               enfoque está en React, Next.js y la web moderna.
             </p>
             <p>
               Disfruto cada etapa del proceso: desde la arquitectura de componentes
-              reutilizables hasta afinar la interaccón de usuario, para que la
-              interfaz se sienta viva. Para mí, el detalle importa.
+              reutilizables hasta afinar la interaccón de usuario.
+              Para mí, el detalle importa.
             </p>
           </div>
 

@@ -2,7 +2,7 @@ export default function Skills() {
   const categories = [
     {
       title: "Core",
-      skills: ["HTML5", "CSS3", "JavaScript (ES15)", "TypeScript"],
+      skills: ["HTML5", "CSS3", "JavaScript (ES16)", "TypeScript"],
     },
     {
       title: "Frameworks & Librerías",

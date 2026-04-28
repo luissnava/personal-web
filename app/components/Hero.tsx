@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { ArrowRight } from "../icons/icons";
+import EtherealCanvas from "./EtherealCanvas";
 export default function Hero() {
   const containerRef = useRef<HTMLElement>(null);
 
@@ -62,34 +63,11 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Columna derecha — Imagen + cuadrados decorativos */}
+        {/* Columna derecha — Efecto partículas */}
         <div className="relative hidden lg:flex items-center justify-center h-120">
-          <div className="absolute top-0 right-0 w-20 h-20 border border-white/10 bg-white/3" />
-          <div className="absolute top-6 right-24 w-14 h-14 border border-white/6 bg-white/2" />
-          <div className="absolute bottom-12 right-4 w-24 h-24 border border-white/10 bg-white/3" />
-          <div className="absolute bottom-0 right-28 w-16 h-16 border border-white/6 bg-white/2" />
-          <div className="absolute top-20 left-0 w-12 h-12 border border-white/6 bg-white/2" />
-          <div className="absolute bottom-24 left-8 w-10 h-10 border border-amber-400/10 bg-amber-400/3" />
-
-          {/* Grid decorativo central */}
-          <div className="absolute top-16 right-8 w-40 h-40 opacity-20">
-            <div className="w-full h-full grid grid-cols-5 grid-rows-5 gap-px">
-              {Array.from({ length: 25 }).map((_, i) => (
-                <div key={i} className="border border-white/20" />
-              ))}
-            </div>
+          <div className="relative z-10 w-full h-full">
+            <EtherealCanvas effect="assemble" />
           </div>
-
-          {/* Placeholder imagen — reemplaza con tu foto/ilustración */}
-          <div className="relative z-10 w-64 h-80 bg-linear-to-b from-white/6 to-white/2 border border-white/10 flex items-end justify-center overflow-hidden">
-            <div className="text-center pb-6">
-              <span className="text-xs font-mono text-white/20 tracking-widest uppercase">
-                Tu foto aquí
-              </span>
-            </div>
-          </div>
-
-          <div className="absolute bottom-8 right-16 w-28 h-28 border border-white/8 bg-white/2 z-0" />
         </div>
       </div>
 
