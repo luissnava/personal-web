@@ -35,9 +35,9 @@ export default function Hero() {
           <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-normal leading-[1.05] text-white/95 mb-6">
             Luis
             <br />
-            <span className="text-white/40">Hernández</span>
+            <span className="text-white/40">Nava</span>
             <br />
-            Nava<span className="text-amber-400">.</span>
+            {/* Nava<span className="text-amber-400">.</span> */}
           </h1>
 
           <p className="text-base sm:text-lg text-white/50 leading-relaxed max-w-xl mb-12">
@@ -64,7 +64,7 @@ export default function Hero() {
         </div>
 
         {/* Columna derecha — Efecto partículas */}
-        <div className="relative hidden md:flex lg:flex items-center justify-center h-full">
+        <div className="relative hidden md:flex lg:flex items-center justify-center h-120">
           <div className="relative z-10 w-full h-full">
             <EtherealCanvas effect="assemble" />
           </div>

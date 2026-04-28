@@ -85,7 +85,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Luis Nava · Frontend Developer",
     description:
-      "Frontend Developer React y Next.js. 5 años desarrollando aplicaciones web profesionales.",
+      "Frontend Developer React y Next.js. 4 años desarrollando aplicaciones web profesionales.",
     url: "https://luisnava.dev",
     siteName: "Luis Nava",
     locale: "es_MX",
